@@ -18,7 +18,6 @@ html {
 }
 
 
-
 .mainNav ul {
 	list-style: nosne;
 	margin: 0;
@@ -51,6 +50,15 @@ nav ul li.pure-menu-selected .pure-menu-link {
 
 section#name b {
 	color: #66fcf1;
+}
+
+@media (max-width: 375px) {
+	section div.introduction {
+		width: 80%;
+		padding: 5% 10%;
+		font-size: 0.5rem;
+		text-align: justify;
+	}
 }
 
 section div.introduction {
