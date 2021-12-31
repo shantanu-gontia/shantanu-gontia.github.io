@@ -1,4 +1,74 @@
-h1 {
+html {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.25;
+	background-color: #0b0c10;
+}
+
+#darkmode {
+	margin-left: auto;
+}
+
+.mainNav ul li {
+	display: inline-block;
+	height: 100%;
+}
+
+.mainNav ul li:hover {
+	text-decoration: underline;
+}
+
+
+
+.mainNav ul {
+	list-style: nosne;
+	margin: 0;
+	padding: 0;
+}
+
+.mainNav {
+	min-height: 2rem;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+
+nav.links {
+	word-spacing: 1.5rem;
+}
+
+nav.links a {
+	color: #45a29e;
+}
+
+nav.links a:hover {
+	color:  white;
+}
+
+nav ul li.pure-menu-selected .pure-menu-link {
+	color: #c5c6c7;
+}
+
+section#name b {
+	color: #66fcf1;
+}
+
+section div.introduction {
+	width: 60%;
+	padding: 5% 20%;
+	font-size: 1.5rem;
 	text-align: center;
-	text-transform: capitalize;
+}
+
+section#name {
+	color: #c5c6c7;
+	font-size: 3rem;
+	text-align: center;
+}
+
+section#name h1{
+	margin-top: 7rem;
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	color: #66fcf1;
 }
